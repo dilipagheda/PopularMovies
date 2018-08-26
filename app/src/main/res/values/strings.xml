@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="title_settings_activity">Settings</string>
+    <string name="no_more_data_to_load">No more data to load!</string>
+    <string name="network_error">Network error while fetching data!</string>
+    <string name="settings_menu_label">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="most_popular">Most Popular</string>
+    <string name="highest_rated">Highest Rated</string>
+    <string name="most_popular_value">most_popular</string>
+    <string name="highest_rated_value">highest_rated</string>
+    <string name="sort_order_key">SORT_ORDER</string>
+    <string name="sort_order_title">Sort Criteria</string>
+    <string name="sort_order_summary">sort movies by most popular or highest rated</string>
+    <string name="movie_detail_title_label">Title</string>
+    <string name="movie_detail_release_date_label">Release Date</string>
+    <string name="movie_detail_vote_label">Vote</string>
+</resources>

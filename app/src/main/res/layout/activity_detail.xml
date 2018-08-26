@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:src="@drawable/testimage"
+    android:id="@+id/image"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginLeft="8dp"
+        android:textSize="20sp"
+        android:text="@string/movie_detail_title_label"
+        android:id="@+id/titleLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/titleLabel"
+        android:layout_marginLeft="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/movie_detail_release_date_label"
+        android:textSize="20sp"
+        android:id="@+id/release_dateLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_below="@id/release_dateLabel"
+        android:layout_marginLeft="8dp"
+
+        android:id="@+id/release_date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/movie_detail_vote_label"
+        android:layout_below="@id/release_date"
+        android:textSize="20sp"
+        android:id="@+id/VoteLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@+id/VoteLabel"
+        android:id="@+id/vote"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/image"
+        android:textSize="16sp"
+        android:id="@+id/plot"
+        />
+</RelativeLayout>
+    </ScrollView>
