@@ -1,4 +1,6 @@
 # PopularMovies
+Branch created for stage 2
+
 Popular Movies app - As part of Udacity Android nanodegree assignment.
 
 This app uses service - http://api.themoviedb.org/3/movie/popular to fetch most popular / highest rated movies and display to the user.
