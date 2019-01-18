@@ -1,17 +1,18 @@
 # PopularMovies
 Popular Movies app - As part of Udacity Android nanodegree assignment.
 
-This app uses service - http://api.themoviedb.org/3/movie/popular to fetch most popular / highest rated movies and display to the user.
+This app uses API service - http://api.themoviedb.org/3/movie/popular to fetch most popular / highest rated movies and display to the user.
 user can change sort order from settings menu
 
-API KEY
-Please put your api key in MoviesLoader class as below.
-
+# API KEY
+Please put your api key in `MoviesLoader` class as below.
+`
 public class MoviesLoader extends AsyncTaskLoader<Movies>{
     private static final String API_KEY = "put_your_key_here";
 }
+`
 
-Tasks done:
+# Tasks done:
 
 - use List view / Arrayadapter- grid layout to display movie posters
 - use picasso image library to load image
@@ -25,7 +26,7 @@ Tasks done:
 - Show progressbar appropriately
 - Show error message if network timeouts/failure
 
-Test cases passed:
+# Test cases passed:
 - verify when app launches, it reads settings from shared preferences and make a call accordingly.
 - verify that movie posters are displayed reasonably well in grid format
 - verify user can scroll and load more data by incrementing pages in the service call
@@ -36,5 +37,5 @@ Test cases passed:
 - user can scroll up all the way to item 1 and can still see previoulsy loaded records
 - images are not downloaded again and again. Thanks to Picasso library's caching mechanism.
 
-Note:
+# Note:
 - OnSaveState is not implemented in this version.
